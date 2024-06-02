@@ -1,0 +1,126 @@
+.header {
+    background-color: #fceadd;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    margin: 0 aut;
+}
+
+.header__iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4px;
+
+}
+
+.menu__btn {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.menu__btn span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #A5978E;
+    margin: 3px 0;
+}
+
+.menu__list {
+    display: flex;
+    gap: 20px;
+}
+
+.menu__list-link {
+    text-transform: uppercase;
+}
+
+.phone {
+    position: relative;
+}
+
+.phone::before {
+    content: '';
+    position: absolute;
+    background-image: url("/public/images/phone.svg");
+    width: 20px;
+    height: 20px;
+    left: -23px;
+    top: -5px;
+}
+
+@media (max-width: 900px) {
+    .menu__list,
+    .phone {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .phone::before {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    /* .menu {
+        order: 1;
+    } */
+
+    .menu__btn {
+        display: flex;
+    }
+
+    .menu__list {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200px;
+        padding: 10px 0;
+        background-color: #7B6152;
+        color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transform: translateY(-100%);
+        transition: transform .5s ease;
+        z-index: 5;
+    }
+
+    .menu--open .menu__list {
+        transform: translateY(0%);
+    }
+
+    .menu__list-item {
+        margin: 10px 0;
+    }
+
+    .menu__close-btn {
+        position: absolute;
+        top: 5px;
+        left: 170px;
+        background: none;
+        border: none;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        z-index: 10;
+    }
+}
+
+@media (max-width: 450px) {
+    
+
+    .menu__btn {
+        width: 25px;
+        height: 25px;
+    }
+}

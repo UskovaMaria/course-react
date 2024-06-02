@@ -1,0 +1,57 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Сердечко кохання",
+      "img": "images/product-1.jpg",
+      "price": 10
+    },
+    {
+      "id": 2,
+      "name": "Вихір кохання",
+      "img": "images/product-2.jpg",
+      "price": 20
+    },
+    {
+      "id": 3,
+      "name": "Веселка",
+      "img": "images/product-3.jpg",
+      "price": 10
+    },
+    {
+      "id": 4,
+      "name": "Жіноча чарівність",
+      "img": "images/product-4.jpg",
+      "price": 10
+    },
+    {
+      "id": 5,
+      "name": "Основи виготовлення свічок",
+      "img": "images/course-1.jpg",
+      "price": 40
+    },
+    {
+      "id": 6,
+      "name": "Мистецтво ароматерапії",
+      "img": "images/course-2.jpg",
+      "price": 40
+    }
+  ],
+  "subscriptions": [
+    {
+      "name": "Марія2",
+      "email": "nastiy@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Настя",
+      "email": "maria@gmal.c",
+      "id": 2
+    },
+    {
+      "name": "Настя",
+      "email": "maria@gmal.com",
+      "id": 3
+    }
+  ]
+}

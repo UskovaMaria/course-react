@@ -1,0 +1,42 @@
+.accordion {
+    width: 100%;
+}
+
+.accordion__text {
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding: 1rem;
+    padding-left: 40px;
+}
+
+.accordion__title {
+    /* font-size: 16px; */
+    font-family: 'Yeseva One', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #b9a9a0;
+}  
+
+.accordion__icon {
+    transition: transform 0.2s;
+    font-size: 20px;
+}
+
+.accordion__icon.open {
+    transform: rotate(180deg);
+}
+
+.accordion__item {
+    margin-bottom: 1rem;
+}
+
+/* @media (max-width: 768px) {
+    .accordion__title {
+        font-size: 12px;
+    }
+} */
+
+
