@@ -14,7 +14,7 @@ export const Product = (props) => {
   return (
     <div className="products__item" data-id={id}>
       <img className="products__item-img" src={img} alt="" />
-      <p className="products__item-price">{price}</p>
+      <p className="products__item-price">{price} $</p>
       <h4 className="products__item-title">{name}</h4>
       <p className="products__item-text">{text}</p>
       <button className="button buy-btn" onClick={handleAddToCart}>Купити</button>

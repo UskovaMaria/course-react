@@ -37,9 +37,9 @@ export const SectionFeedback = () => {
                     >
                         <SwiperSlide>
                             <div className="feedback__item">
-                                <div className="feedback__item-video">
+                                {/* <div className="feedback__item-video"> */}
                                     <img className="feedback__item-img" src={process.env.PUBLIC_URL + '/images/slide.jpg'} alt="" />
-                                </div>
+                                {/* </div> */}
                                 <div className="feedback__item-content">
                                     <a className="feedback__item-sociallink" href="#">
                                         <img src={process.env.PUBLIC_URL + '/images/instagram.svg'} alt="" />

@@ -45,6 +45,10 @@
 }
 
 @media (max-width: 480px) {
+    .certificates__content {
+        padding-bottom: 70px;
+    }
+    
     .certificates__content img {
         width: 200px;
     }

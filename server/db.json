@@ -38,6 +38,10 @@
     }
   ],
   "subscriptions": [
-    
+    {
+      "id": "9471",
+      "name": "Марія",
+      "email": "maria@gmal.com"
+    }
   ]
 }
