@@ -27,6 +27,13 @@
     height: 30px;
     cursor: pointer;
     background-color: transparent;
+    padding: 10px;
+}
+
+.menu__btn:hover {
+    background: #7B6152;
+    color: white;
+    border-radius: 10%;
 }
 
 .menu__btn span {
