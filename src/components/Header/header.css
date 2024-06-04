@@ -14,7 +14,7 @@
 }
 
 .logo__img:hover {
-    background-color: #A5978E;
+    background-color: #7B6152;
     border-radius: 10px;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .menu__list-item:hover {
-    background-color: #A5978E;
+    background-color: #7B6152;
     color: white;
     border-radius: 10%;
 }
@@ -137,8 +137,6 @@
 }
 
 @media (max-width: 450px) {
-    
-
     .menu__btn {
         width: 25px;
         height: 25px;

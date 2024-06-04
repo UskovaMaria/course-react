@@ -1,11 +1,11 @@
 .cart {
-    color: #A5978E;
+    color: #9c8a7d;
     font-size: 20px;
     padding: 10px;
 }
 
 .cart:hover {
-    background: #A5978E;
+    background: #7B6152;
     border-radius: 10%;
     color: white;
 }
@@ -186,7 +186,5 @@
     .cart-popup__quantity {
        margin: 5px 0;
     }
-
-    
 }
 
