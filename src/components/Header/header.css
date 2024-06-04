@@ -11,7 +11,11 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 4px;
+}
 
+.logo__img:hover {
+    background-color: #A5978E;
+    border-radius: 10px;
 }
 
 .menu__btn {
@@ -35,11 +39,20 @@
 
 .menu__list {
     display: flex;
-    gap: 20px;
 }
 
 .menu__list-link {
     text-transform: uppercase;
+}
+
+.menu__list-item {
+    padding: 10px 10px 6px;
+}
+
+.menu__list-item:hover {
+    background-color: #A5978E;
+    color: white;
+    border-radius: 10%;
 }
 
 .phone {

@@ -1,6 +1,13 @@
 .cart {
     color: #A5978E;
     font-size: 20px;
+    padding: 10px;
+}
+
+.cart:hover {
+    background: #A5978E;
+    border-radius: 10%;
+    color: white;
 }
 
 .cart-popup {
