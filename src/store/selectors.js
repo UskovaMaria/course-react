@@ -8,6 +8,7 @@ export const selectFilteredProducts = createSelector(
   (prodsList) => prodsList.filter(prod => prod.type === 'product')
 );
 
+//основний селектор для отримання списку товарів у кошику 
 const selectCart = (state) => state.cart;
 
 export const selectCartItems = createSelector(
