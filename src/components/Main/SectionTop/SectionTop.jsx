@@ -12,7 +12,7 @@ export const SectionTop = () => {
                     <h3 className="top__title">
                         Створіть атмосферу затишку та гармонії!
                     </h3>
-                    <p className="top__text">
+                    <p className="top__text section__text">
                         Створіть особливу атмосферу у своєму домі
                         з нашою екологічно чистою та якісною продукцією
                         зі 100% натуральної соєвого воску.

@@ -127,8 +127,6 @@ button {
   margin: 16px 0;
 }
 
-
-
 @media (max-width: 1110px) {
   .title {
     font-size: 30px;
@@ -194,11 +192,6 @@ button {
 }
 
 @media (max-width: 675px) {
-  .section__inner {
-    display: block;
-    padding-top: 50px;
-  }
-
   .section__descr {
     display: flex;
     flex-direction: column;
@@ -221,9 +214,11 @@ button {
 }
 
 @media (max-width: 480px) {
+  .section__inner {
+    padding-top: 70px;
+  }
   .section__descr {
     margin: 0 auto 30px;
-    
   }
 }
 
