@@ -161,7 +161,7 @@
         width: 100px;
         height: 100px;
     }
-    
+
     .total-amount,
     .cart-popup__total {
         font-size: 14px;
@@ -171,12 +171,7 @@
 @media (max-width: 540px) {
     .cart-popup__details {
         display: block;
-    }
-
-    .delete-btn {
-        position: absolute;
-        right: 0;
-        top: 0;
+        text-align: center;
     }
 
     .cart-popup__price {
@@ -184,7 +179,20 @@
     }
 
     .cart-popup__quantity {
-       margin: 5px 0;
+        margin: 5px 0;
+    }
+
+    .cart-popup__quantity span {
+        width: 35px;
+    }
+
+    .delete-btn {
+        position: absolute;
+        right: -10px;
+        top: 54px;
+    }
+
+    .delete-popup {
+        top: -64px;
     }
 }
-
