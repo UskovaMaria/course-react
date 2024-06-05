@@ -3,12 +3,14 @@ import { useDispatch, useSelector } from 'react-redux';
 import { increaseQuantity, decreaseQuantity, removeFromCart } from '../../store/cartSlice';
 import { selectCartItems } from '../../store/selectors';
 import './cartPopup.css';
+import { FormPopup } from './FormPopup/FormPopup'; 
 
 export const CartPopup = ({ isOpen, onClose }) => {
   const cartItems = useSelector(selectCartItems);
   const dispatch = useDispatch();
   const [totalPrice, setTotalPrice] = useState(0);
   const [visibleDeletePopups, setVisibleDeletePopups] = useState({});
+  const [isFormOpen, setIsFormOpen] = useState(false); 
 
   useEffect(() => {
     const calculateTotalPrice = () => {
@@ -41,6 +43,13 @@ export const CartPopup = ({ isOpen, onClose }) => {
     }));
   };
 
+  const handleOpenForm = () => {
+    setIsFormOpen(true);
+  };
+
+  const handleCloseForm = () => {
+    setIsFormOpen(false);
+  };
 
   return (
     <div className={`cart-popup ${isOpen ? 'open' : ''}`}>
@@ -74,6 +83,10 @@ export const CartPopup = ({ isOpen, onClose }) => {
           ))}
         </div>
         <p className="cart-popup__total">Загальна сума: <span className="total-amount">{totalPrice}$</span></p>
+        <div className="cart-popup__btn">
+        <button className="button" onClick={handleOpenForm}>Оформити замовлення</button>
+        </div>
+      {isFormOpen && <FormPopup onClose={handleCloseForm} />}
     </div>
   );
 };

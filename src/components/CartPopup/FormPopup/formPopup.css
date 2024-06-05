@@ -1,0 +1,35 @@
+.form-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d8ee87;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    width: 90%;
+    max-width: 300px;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  .form-popup__content {
+    position: relative;
+  }
+  
+  .form-popup h2 {
+    text-align: center;
+  }
+  
+  .form-popup__close-btn {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+
+  
+  

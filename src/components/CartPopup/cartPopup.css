@@ -147,6 +147,12 @@
     font-size: 20px;
 }
 
+.cart-popup__btn {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .total-amount {
     margin-left: 20px;
     font-size: 20px;
